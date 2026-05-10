@@ -1,0 +1,10 @@
+{
+  "name": "M365-PIM-SourceOfTruth-WindowsApp",
+  "version": "3.0.0",
+  "type": "PowerShell WPF desktop app shell",
+  "sourceOfTruth": "Microsoft Graph export JSON",
+  "customTieringUsed": false,
+  "localInterpretationUsed": false,
+  "entryPoint": "Start-M365-PIM-SourceOfTruth-App.ps1",
+  "exportEngine": "tools/Export-M365-Entra-PIM-SourceOfTruth.ps1"
+}
